@@ -71,8 +71,8 @@ extension DetailView: View {
                     }
                 }
                 Section(
-                    header: Text("DNS-over-TLS Settings"),
-                    footer: Text("The TLS name of a DNS-over-TLS server.")
+                    header: Text("Powered by Onbibi Shield, contact us at giabaodiep@gmail.com"),
+                    footer: Text("Onbibi Shield is a free application for protecting children and family from unsafe things on the Internet, created by Bao Gia Diep.")
                 ) {
                     HStack {
                         Text("Server Name")
