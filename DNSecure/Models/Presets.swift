@@ -10,7 +10,7 @@ import Foundation
 enum Presets {
     static let servers: Resolvers = [
         .init(
-            name: "Protect you from Malware, Adults & Unsafe things (Cloudflare)",
+            name: "Block Malware, Sexual & Adults websites filter (1.1.1.3)",
             configuration: .dnsOverHTTPS(
                 DoHConfiguration(
                     servers: [
@@ -24,7 +24,7 @@ enum Presets {
             )
         ),
         .init(
-            name: "Block Inapproriate contents & Unsafe Videos on Youtube and Internet (Cleanbrowsing)",
+            name: "Block Sexual & Adults websites, Youtube: Safe Mode (Cleanbrowsing)",
             configuration: .dnsOverHTTPS(
                 DoHConfiguration(
                     servers: [
@@ -38,7 +38,7 @@ enum Presets {
             )
         ),
         .init(
-            name: "Protect parent and kids from threats & bad contents on the Internet (OpenDNS Family Shield)",
+            name: "Block Sexual & Adults websites filters (OpenDNS)",
             configuration: .dnsOverHTTPS(
                 DoHConfiguration(
                     servers: [
