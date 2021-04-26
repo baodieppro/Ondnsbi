@@ -38,7 +38,7 @@ extension DetailView: View {
                     header: EditButton()
                         .foregroundColor(.accentColor)
                         .frame(maxWidth: .infinity, alignment: .trailing)
-                        .overlay(Text("Family-friendly Internet Portals"), alignment: .leading),
+                        .overlay(Text("Family-friendly Internet Filters"), alignment: .leading),
                     footer: Text("The DNS server IP addresses.")
                 ) {
                     ForEach(0..<configuration.servers.count, id: \.self) { i in
