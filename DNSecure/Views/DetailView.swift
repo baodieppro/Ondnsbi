@@ -71,7 +71,7 @@ extension DetailView: View {
                     }
                 }
                 Section(
-                    header: Text("Powered by Onbibi Shield, feedback us at giabaodiep@gmail.com"),
+                    header: Text("Powered by Onbibi, feedback us at giabaodiep@gmail.com"),
                     footer: Text("Onbibi Shield is a free application for protecting children from inapproriate contents and bad websites on the Internet.")
                 ) {
                     HStack {
