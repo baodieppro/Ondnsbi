@@ -23,7 +23,7 @@ extension DetailView: View {
     var body: some View {
         Form {
             Section {
-                Toggle("Use This Server", isOn: self.$isOn)
+                Toggle("Use This Filter", isOn: self.$isOn)
             }
             Section {
                 HStack {
