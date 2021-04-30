@@ -33,7 +33,7 @@ enum Presets {
                         "2a0d:2a00:1::",
                         "2a0d:2a00:2::",
                     ],
-                    serverURL: URL(string: "https://doh.cleanbrowsing.org/doh/family-filter/")
+                    serverURL: URL(string: "https://doh.cleanbrowsing.org/doh/family-filter")
                 )
             )
         ),
